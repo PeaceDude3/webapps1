@@ -1,1 +1,17 @@
-// Your CSS code goes here
+body {
+  background-color: black;
+}
+
+.foo {
+  border: 3px white solid;
+  margin: 0 auto;
+  padding: 30px;
+  width: 700px;
+  background: #4BC36B;
+  border-radius: 15px;
+  transition: width .3s;
+}
+
+.foo:hover {
+  font-size: 20px;
+}
