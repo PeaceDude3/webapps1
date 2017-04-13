@@ -7,6 +7,148 @@ html, body {
   margin: 0;
 }
 
+body {
+  background: black;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: blue;
+}
+
+li {
+  color: orange;
+}
+
+p {
+  color: purple;
+  font-size: 15px;
+}
+
+
+.splatoon {
+  font-family: 'Racing Sans One', cursive;
+  text-align: center;
+}
+
+.ink {
+  font-family: 'Racing Sans One', cursive;
+  text-align: center;
+}
+
+.big-img img{
+  width: 100vw;
+}
+
+.cel-img {
+  width: .1%;
+  height: .1%;
+}
+
+splatduliesboy(2).png {
+  align-content: center;
+}
+
+
+
+.leave1 {
+  float: left;
+  border: 3px green solid;
+  border-radius: 15px;
+  background: #40BFBD;
+}
+
+.leave1:hover {
+  border: 5px red solid;
+  border-radius: 15px;
+  transition: .1s;
+}
+
+.leave2 {
+  float: left;
+  border: 3px green solid;
+  border-radius: 15px;
+  background: #40BFBD;
+  flex: auto;
+}
+
+.leave2:hover {
+  border: 5px red solid;
+  border-radius: 15px;
+  transition: .1s;
+}
+
+.Chargers {
+  border: 3px #56f442 dashed;
+  padding: 10px;
+}
+
+h2:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+}
+
+div img {
+  width: 200px;
+}
+
+.video {
+  width: 50%;
+  height: 50%;
+  float: right;
+}
+
+.range2 {
+  color: purple;
+}
+
+.range2:hover {
+  color: orange;
+}
+
+button:hover {
+  background-color: white;
+  transform: rotate(1080deg);
+}
+
+button {
+  color: orange;
+  border: solid;
+  background: purple;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+
+}
+
+.range4 {
+  color: purple;
+}
+
+.range4:hover {
+  color:orange;
+}
+
+.range3 {
+  color: purple;
+}
+
+.range3:hover {
+  color: orange;
+}
+
+.range1 {
+  color: purple;
+}
+
+.range1:hover {
+  color: orange;
+}
+
 /*
   Now, your CSS
 */
