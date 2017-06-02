@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: 'IM Fell English SC', serif;
 }
 
 .foo {
@@ -10,8 +11,11 @@ body {
   background: #4BC36B;
   border-radius: 15px;
   transition: width .3s;
+  color: white;
 }
+
 
 .foo:hover {
   font-size: 20px;
+  color: orange;
 }
